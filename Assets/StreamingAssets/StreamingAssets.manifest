@@ -1,0 +1,11 @@
+ManifestFileVersion: 0
+CRC: 3925257040
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: gassets_other_materias
+      Dependencies: {}
+    Info_1:
+      Name: gassets_prefabs
+      Dependencies:
+        Dependency_0: gassets_other_materias

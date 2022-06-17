@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 2010595381
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 184a5a48cfe1074790ba805a21fbad47
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0b8b4c3fa7df8ef09ada82c9b40d5de8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GAssets/Prefabs/Capsule.prefab
+Dependencies:
+- D:/unity/job/Animal checker/Assets/StreamingAssets/gassets_other_materias
