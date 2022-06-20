@@ -160,7 +160,11 @@ public class ABEditor : MonoBehaviour
             }
 
             bundleInfo.bundle_id = id;
-
+            string abFilePath = abOutputPath + "/" + bundleInfo.bundle_name;
+            using(FileStream stream = File.OpenRead(abFilePath))
+            {
+                bundleInfo.crc =AssetUtility.GetCRC32Hash(stream);
+            }
             bundleInfoSet.AddBundle(id, bundleInfo);
 
             id++;

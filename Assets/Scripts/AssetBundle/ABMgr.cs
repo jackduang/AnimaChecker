@@ -19,6 +19,10 @@ public class BundleInfo
     public string bundle_name;
 
     /// <summary>
+    /// 用来对比的进行下载的CRC校验码
+    /// </summary>
+    public string crc;
+    /// <summary>
     /// 这个bundle所包含的资源的路径列表
     /// </summary>
     public List<string> assets;
